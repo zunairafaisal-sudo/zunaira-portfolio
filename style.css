@@ -73,14 +73,15 @@ video {
 
 
 
-input,textarea {
+input, textarea {
     padding: 8px;
     border: 1px solid saddlebrown;
+    color: black;
 }
 
 #reset {
     background-color: burlywood;
-    color: saddlebrown;
+    color: black;
     border: 2px solid saddlebrown;
     padding: 10px 20px;
     box-shadow: 2px 2px 5px gray;
@@ -88,7 +89,7 @@ input,textarea {
 
 #submit {
     background-color: burlywood;
-    color: saddlebrown;
+    color: black;
     border: 2px solid saddlebrown;
     padding: 10px 20px;
     box-shadow: 2px 2px 5px gray;
