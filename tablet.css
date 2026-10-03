@@ -1,0 +1,28 @@
+main {
+    width: 85%;
+    padding: 20px;
+}
+
+
+nav a {
+    padding: 10px;
+    margin: 5px;
+    font-size: 15px;
+}
+
+
+img{
+    width: 250px;
+    height: auto;
+}
+
+
+video {
+    width: 70%;
+    height: auto;
+}
+
+
+input,textarea {
+    width: 80%;
+}

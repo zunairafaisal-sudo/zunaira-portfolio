@@ -1,0 +1,105 @@
+body {
+    background-color: beige;
+    color: saddlebrown;
+    font-family: Arial, sans-serif;
+    margin: 0;
+}
+
+
+header {
+    background: linear-gradient(burlywood, beige);
+    padding: 20px;
+    text-align: center;
+}
+
+
+
+nav {
+    background-color: white;
+    padding: 10px;
+    text-align: center;
+}
+
+nav a {
+    background-color: beige;
+    color: saddlebrown;
+    text-decoration: none;
+    padding: 10px;
+    margin: 10px;
+    border: 2px solid saddlebrown;
+    box-shadow: 2px 2px 5px gray;
+}
+
+
+
+main {
+    background: linear-gradient(135deg, burlywood, beige);
+    width: 90%;
+    margin: 30px auto;
+    padding: 20px;
+    min-height: 400px;
+}
+
+
+
+
+h2 {
+    color: saddlebrown;
+}
+
+h3 {
+    color: saddlebrown;
+}
+
+
+
+
+img {
+    width: 200px;
+    height: auto;
+    border: 3px solid saddlebrown;
+    padding: 5px;
+    background-color: white;
+}
+
+
+
+
+video {
+    width: 500px;
+    height: auto;
+}
+
+
+
+
+input,textarea {
+    padding: 8px;
+    border: 1px solid saddlebrown;
+}
+
+#reset {
+    background-color: burlywood;
+    color: saddlebrown;
+    border: 2px solid saddlebrown;
+    padding: 10px 20px;
+    box-shadow: 2px 2px 5px gray;
+}
+
+#submit {
+    background-color: burlywood;
+    color: saddlebrown;
+    border: 2px solid saddlebrown;
+    padding: 10px 20px;
+    box-shadow: 2px 2px 5px gray;
+}
+
+
+
+footer {
+    background: linear-gradient(135deg, saddlebrown, burlywood);
+    color: white;
+    text-align: center;
+    padding: 10px 0;
+    margin-top: 30px;
+}
