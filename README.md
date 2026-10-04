@@ -33,5 +33,33 @@ This website used multiple .css files for different screen sizes.
   - mobile.css is used for smallest screen sizes
   - tablet.css is use for tablet sized screens
   - laptop.css is used for larger screens
-  - style.css is the main css file that controls formating/organziation
+  - style.css is the main css file that controls formating/organziation.
+    
 All of the responsive stylesheets are connected to the HTML pages using media queries so that the website can adjust to different screen sizes.
+
+                                                WEBSITE FEAUTURES:
+- Four HTML pages connected to each other
+- Navigation menu on each page
+- Responsive designs for varieties of screen sizes
+- Personal intro and information is provided
+- Projects come with images and descriptions
+- Contact form provided for any visitor that wants to stay in touch
+- Video with a control panel and a poster image
+- Styled buttons and navigation links
+- Warm beige and brown colour theme *********** (CHECK BSCK AFTER PROFS EMAIL)
+- Footer that includes contact info as well as a copyright notice
+
+                                                  COLOUR SCHEME:
+  The website uses a warm and basic coloured scheme.
+
+  The main colours used in the wbesite are:
+  - Beige
+  - Burlywood
+  - Saddlebrown
+
+Black, gray and white are also incorporated into the website for features like the background, form buttons, borders and shadows.
+
+                                            VALIDATION AND ACCESSIBILITY:
+This website was checked using recommended HTML and CSS validators to ensure that the code is valid with no errors.
+
+WAVE accessibility tool was also used to ensure there were no accessibility issues such as page structure, colour contrasts and other features of such. 
