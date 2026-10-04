@@ -48,9 +48,9 @@ Contact Me:
                                                RESPONSIVE DESIGN:
 This website used multiple .css files for different screen sizes.
   - mobile.css is used for smallest screen sizes (0-600px)
-        - I used smaller navigation text and spacing so that the navigation buttons can fit on a smaller screen. Images, videos, and form fields also use percentage-based widths (fluids) so they can adjust to the available screen size.
+        - I used smaller navigation text and spacing so that the navigation buttons can fit on a smaller screen. Images, videos, and form fields also use percentage-based widths, that allow these elements to adjust to the available screen width, instead of always using one fixed size.
 
-  - tablet.css is use for tablet sized screens (501-1024px)
+  - tablet.css is use for tablet sized screens (601–1024px)
         - The navigation, images, video, and form fields are slightly larger than the mobile version because tablets provide more screen space.
 
   - laptop.css is used for larger screens (1025px and bigger)
@@ -58,7 +58,7 @@ This website used multiple .css files for different screen sizes.
 
   - These viewport ranges were chosen to separate small phone screens, medium tablet screens, and larger laptop/desktop screens.
     
-  - style.css is the main css file that controls formatting/organization. It contains the main colours, backgrounds, styling, headings, navigations, videos, images, footer styling, form styling and buttons.
+  - style.css is the main css file that controls formatting/organization. It contains the main colours, backgrounds, styling, headings, navigation, videos, images, footer styling, form styling and buttons.
     
 All of the responsive stylesheets are connected to the HTML pages using media queries so that the website can adjust to different screen sizes.
 
@@ -76,9 +76,9 @@ Semantic HTML elements are used throughout the website an includes the following
 
 These elements help the content of the website to stay organized by making the structure of each page easier to understand and navigate. 
 
-Comments were also included all throughout the code to explain briefly what diffeerent sections and CSS rules do.
+Comments were also included all throughout the code to explain briefly what different sections and CSS rules do.
 
-                                                WEBSITE FEAUTURES:
+                                                WEBSITE FEATURES:
 - Four HTML pages connected to each other
 - Navigation menu on each page
 - Responsive designs for varieties of screen sizes
@@ -93,7 +93,7 @@ Comments were also included all throughout the code to explain briefly what diff
 - Footer that includes contact info as well as a copyright notice
 - Linear gradients
 - Angled gradients
-- Warm Adobe color shceme
+- Warm Adobe color scheme
 - Semantic HTML structure
 - Comments throughout the HTML and CSS codes
 
@@ -107,15 +107,15 @@ Comments were also included all throughout the code to explain briefly what diff
  - #944D4D
  - #000000
 
-   The lighter colours are used for backgrounds and other lighter areas of the website. The darker colours like the darker browns are used for borders, headings, buttons, navigations and other important parts of the website. Black is used where stronger text contrast is needed for example the text on the submit and reset buttons. These colours were chosen to create a simple, professional and warm aesthetic throughout. The same colour schemes are used across all paged to keep them consistent and uniformed. 
+   The lighter colours are used for backgrounds and other lighter areas of the website. The darker colours like the darker browns are used for borders, headings, buttons, navigation and other important parts of the website. Black is used where stronger text contrast is needed for example the text on the submit and reset buttons. These colours were chosen to create a simple, professional and warm aesthetic throughout. The same colour schemes are used across all paged to keep them consistent and uniformed. 
 
 
                                                       GRADIENTS:
-   Theres linear gradient used throughout the entire website. The regular linear is used to create a smooth transition between the colours as they change.
+   There's linear gradient used throughout the entire website. The regular linear is used to create a smooth transition between the colours as they change.
 
-   An angled linear gradient is also used and can be seen in the main content area and the footer. It uses 135 degrees so that the colours transition diagonally instead of chagning like an ombre from top to bottom.
+   An angled linear gradient is also used and can be seen in the main content area and the footer. It uses 135 degrees so that the colours transition diagonally instead of Changing like an ombre from top to bottom.
 
-   These gradients add a pleasing visual desgin to the webstire while also maintain the 5 shade colour scheme.
+   These gradients add a pleasing visual design to the website while also maintain the 5 shade colour scheme.
 
    The gradients can be found in the style.css file.
 
@@ -125,7 +125,7 @@ Comments were also included all throughout the code to explain briefly what diff
    - HTML5 validation is used in the contact me form
    - The name, Email, Phone and Comments fields use the "required" attribute.
    - Email field uses type="email" to give basic format validation
-   - The phone field uses type="tel" to ensure a phone number input
+   - The phone field uses type="tel" and required to request a phone number and make the field mandatory.
    - The reset button clears the information entered in the forms once clicked.
    - The submit button is used to submit the form once all information filled out  correctly and as per requirements.
   
@@ -134,7 +134,7 @@ Comments were also included all throughout the code to explain briefly what diff
                                             VALIDATION AND ACCESSIBILITY:
 This website was checked using recommended HTML and CSS validators to ensure that the code is valid with no errors.
   - The HTML files were checked by the W3C Markup Validation Service
-  - The CSS filed were checked by the W3C CSS Validation Service
+  - The CSS files were checked by the W3C CSS Validation Service
   - The website was tested using the WAVE accessibility tool.
   - WAVE was used to check:
       - Page structure
@@ -143,7 +143,7 @@ This website was checked using recommended HTML and CSS validators to ensure tha
       - ARIA information
       - Images
       - Forms
-      - Any other accessibility feautres
+      - Any other accessibility features
 Necessary changes were made through these checks like improving the contrast of the submit and reset buttons
 
 - Images include alt texts using the alt attribute for a accessibility feature
@@ -152,22 +152,22 @@ Necessary changes were made through these checks like improving the contrast of 
 
                                               GITHUB AND VERSION CONTROL:
   - GitHub and Git were used to manage the website files and track the changes during development.
-  - The project is stores in a public GitHub repository
+  - The project is stored in a public GitHub repository
   - The repository contains the HTML files, CSS files, video and images used in the website.
   - Git commits were used to save changed and show different stages of development
   - The website is deployed using GitHub Pages.
 
 
                                                     GITHUB PAGES:
-    The live portfolio website is hsoted by GitHub Pages and can be found through the following URL: https://zunairafaisal-sudo.github.io/zunaira-portfolio/
+    The live portfolio website is hosted by GitHub Pages and can be found through the following URL: https://zunairafaisal-sudo.github.io/zunaira-portfolio/
 
     The GitHub repository can be found through the following URL: https://github.com/zunairafaisal-sudo/zunaira-portfolio
 
 
                                                     EXTERNAL RESOURCES:
 - The website was creating using HTML5 and CSS3 based on the concepts and techniques learn in INFR3120
-- The music video sued in the website on the about me page is an external video extracted from youtube and is NOT my own video.
-    - The video is used in the about me page to demonstrate the usage and underestanding of the HTML5 video element, controls, posters and a personal added feature of muted attributes.
+- The music video used in the website on the about me page is an external video extracted from youtube and is NOT my own video.
+    - The video is used in the about me page to demonstrate the usage and understanding of the HTML5 video element, controls, poster and a personal added feature of muted attributes.
     - Video: "JUL - AVANT LA DOUANE // ALBUM GRATUIT [30] FINAL // 2016 by DORETDEPLATINE
       Source: Youtube --> https://www.youtube.com/watch?v=nkFzkFcPMyg&list=RDnkFzkFcPMyg&start_radio=1
 
@@ -175,14 +175,14 @@ Necessary changes were made through these checks like improving the contrast of 
                                                         TESTING:
 - The website was tested using different devices to ensure the screen size adjusts naturally depending on what device is hosting the website.
 - The navigation links were tested individually to ensure each page connects correctly.
-- HTML and CSS validation was completed using the requires W3C validation services as mentioned previously.
+- HTML and CSS validation was completed using the required W3C validation services as mentioned previously.
 - Spellings were also checked before submission using spell check.
 - The website also went through a WAVE test for accessibility as mentioned previously.
 
 
                                                         CONCLUSION:
-- The portfolio website demonstrates my understanding of HTML5, CSS3, semantic HTML, validation, forms, gradients, responsive design, navigations and website organization.
+- The portfolio website demonstrates my understanding of HTML5, CSS3, semantic HTML, validation, forms, gradients, responsive design, navigation and website organization.
 - The website is designed to be organized, simple, responsive and overall easy for visitors to use ad navigate.
 - The project also demonstrates how HTML and CSS can work together to create a complete multi page personal portfolio website.
-- Git and GitHub are used for visual control while GitHub Pages is used to deploy the website online. 
+- Git and GitHub are used for version control while GitHub Pages is used to deploy the website online. 
     
