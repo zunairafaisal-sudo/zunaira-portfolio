@@ -59,12 +59,12 @@ All of the responsive stylesheets are connected to the HTML pages using media qu
 The website was created using HTML5 and CSS3
 
 Semantic HTML elements are used throughout the website an includes the following:
-- <header>
-- <nav>
-- <main>
-- <section>
-- <article>
-- <footer>
+- "<header>"
+- "<nav>"
+- "<main>"
+- "<section>"
+- "<article>"
+- "<footer>"
 
 These elements help the content of the website to stay organized by making the structure of each page easier to understand and navigate. 
 
