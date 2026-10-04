@@ -1,15 +1,15 @@
 
 /* Sets the overall background, text colour, font, and spacing */
 body {
-    background-color: beige;
-    color: saddlebrown;
+    background-color: #F9ECE5;
+    color: #000000;
     font-family: Arial, sans-serif;
     margin: 0;
 }
 
 /* Styles the header with a linear gradient and centered text */
 header {
-    background: linear-gradient(burlywood, beige);
+    background: linear-gradient(#D6CBC9, #F9ECE5);
     padding: 20px;
     text-align: center;
 }
@@ -17,25 +17,25 @@ header {
 
 /* Styles the navigation area */
 nav {
-    background-color: white;
+    background-color: #D6CBC9;
     padding: 10px;
     text-align: center;
 }
 
 /* Styles the navigation links with borders, spacing, and shadows */
 nav a {
-    background-color: beige;
-    color: saddlebrown;
+    background-color: #F9ECE5;
+    color: #68150A;
     padding: 10px;
     margin: 10px;
-    border: 2px solid saddlebrown;
-    box-shadow: 2px 2px 5px gray;
+    border: 2px solid #68150A;
+    box-shadow: 2px 2px 5px #944D4D;
 }
 
 
 /* Styles the main content area and adds a gradient background */
 main {
-    background: linear-gradient(135deg, burlywood, beige);
+    background: linear-gradient(135deg, #D6CBC9, #F9ECE5);
     width: 90%;
     margin: 30px auto;
     padding: 20px;
@@ -46,12 +46,12 @@ main {
 
 /* Sets the colour of the main headings */
 h2 {
-    color: saddlebrown;
+    color:#68150A;
 }
 
 /* Styles the subheadings */
 h3 {
-    color: saddlebrown;
+    color: #944D4D;
 }
 
 
@@ -59,9 +59,9 @@ h3 {
 img {
     width: 200px;
     height: auto;
-    border: 3px solid saddlebrown;
+    border: 3px solid #68150A;
     padding: 5px;
-    background-color: white;
+    background-color: #F9ECE5;
 }
 
 
@@ -77,36 +77,36 @@ video {
 /* Styles the form text boxes and comment box */
 input, textarea {
     padding: 8px;
-    border: 1px solid saddlebrown;
-    color: black;
+    border: 1px solid #68150A;
+    color: #000000;
 }
 
 
 /* Styles the Reset button */
 
 #reset {
-    background-color: burlywood;
-    color: black;
-    border: 2px solid saddlebrown;
+    background-color: #D6CBC9;
+    color: #000000;
+    border: 2px solid #68150A;
     padding: 10px 20px;
-    box-shadow: 2px 2px 5px gray;
+    box-shadow: 2px 2px 5px #944D4D;
 }
 
 
 /* Styles the submit button */
 #submit {
-    background-color: burlywood;
-    color: black;
-    border: 2px solid saddlebrown;
+    background-color: #D6CBC9;
+    color: #000000;
+    border: 2px solid #68150A;
     padding: 10px 20px;
-    box-shadow: 2px 2px 5px gray;
+    box-shadow: 2px 2px 5px #944D4D;
 }
 
 
 
 footer {
-    background: linear-gradient(135deg, saddlebrown, burlywood);
-    color: white;
+    background: linear-gradient(135deg, #68150A, #944D4D);
+    color: #F9ECE5;
     text-align: center;
     padding: 10px 0;
     margin-top: 30px;
