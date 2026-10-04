@@ -1,9 +1,12 @@
+
+/* Styles the main content area with width and padding */
 main {
     width: 90%;
     padding: 20px;
 }
 
 
+/* Styles the navigation links with padding, margin, and font size */
 nav a {
     padding: 10px;
     margin: 10px;
@@ -11,19 +14,21 @@ nav a {
 }
 
 
+/* Sets the size of the images */
 img {
     width: 200px;
     height: auto;
 }
 
 
+/* Sets the size of the video */
 video {
     width: 500px;
     height: auto;
 }
 
 
-input,
-textarea {
+/* Styles the form text boxes and comment box */
+input,textarea {
     width: auto;
 }

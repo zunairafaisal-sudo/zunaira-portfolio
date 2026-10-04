@@ -1,12 +1,18 @@
+
+<!-- Tells the browser that this document uses HTML5 -->
 <!DOCTYPE html>
 <html>
 
 
 <head>
+    <!-- Allows the webpage to correctly display different characters and symbols -->
     <meta charset="UTF-8">
+    <!-- Makes the webpage adjust properly to different screen sizes -->
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- Sets the title shown in the browser tab -->
     <title>Zunaira Faisal's Portfolio - Contact</title>
 
+    <!-- Links the main stylesheet -->
     <link rel="stylesheet" href="style.css">
     <link rel="stylesheet" href="mobile.css" media="screen and (max-width: 600px)">
     <link rel="stylesheet" href="tablet.css" media="screen and (min-width: 601px) and (max-width: 1024px)">
@@ -15,8 +21,11 @@
 
 
 <body>
+    <!-- Header contains the portfolio title and navigation menu -->
     <header>
         <h1>My Personal Portfolio</h1>
+
+        <!-- Navigation links allow users to move between the four pages -->
         <nav>
         <a href="index.html">Home</a>
         <a href="about.html">About Me</a>
@@ -25,8 +34,9 @@
         </nav>
     </header>
 
-
+    <!-- Main content for this page-->
     <main>
+        <!-- Contact information section -->
         <section>
             <h2>Contact Me</h2>
 
@@ -35,10 +45,13 @@
                 fill out the form below.
             </p>
 
-
+            <!-- Contact form -->
             <form>
+                <!-- Label for the name input field -->
                 <label for="name">Name:</label>
                 <br>
+
+                <!-- Input field for the user's name -->
                 <input type="text"
                        id="name"
                        name="name"
@@ -46,9 +59,11 @@
                        required>
                 <br><br>
 
-
+                <!-- Label for the email input field -->
                 <label for="email">Email:</label>
                 <br>
+
+                <!-- Input field for the user's email -->
                 <input type="email"
                        id="email"
                        name="email"
@@ -56,9 +71,11 @@
                        required>
                 <br><br>
 
-
+                <!-- Label for the phone input field -->
                 <label for="phone">Cell Phone:</label>
                 <br>
+
+                <!-- Input field for the user's phone number -->
                 <input type="tel"
                        id="phone"
                        name="phone"
@@ -66,9 +83,11 @@
                        required>
                 <br><br>
 
-
+                <!-- Label for the comments textarea -->
                 <label for="comments">Comments:</label>
                 <br>
+
+                <!-- Textarea for the user's comments -->
                 <textarea id="comments"
                           name="comments"
                           rows="5"
@@ -77,6 +96,7 @@
                           required></textarea>
                 <br><br>
 
+                <!-- Reset and Submit buttons -->
                 <input type="reset" id="reset" value="Reset">
                 <input type="submit" id="submit" value="Submit">
                 
@@ -86,7 +106,7 @@
         </section>
     </main>
 
-
+    <!-- Footer contains contact information and copyright information -->
     <footer>
 
         <p>Email: zunaira.faisal@ontariotechu.net</p>

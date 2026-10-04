@@ -1,13 +1,23 @@
+
+<!-- Tells the browser that this document uses HTML5 -->
 <!DOCTYPE html>
 <html>
 
 
 <head>
+    <!-- Allows the webpage to correctly display different characters and symbols -->
     <meta charset="UTF-8">
+
+    <!-- Makes the webpage adjust properly to different screen sizes -->
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- Sets the title shown in the browser tab -->
     <title>Zunaira Faisal's Portfolio - Projects</title>
+
+    <!-- Links the main stylesheet -->
     <link rel="stylesheet" href="style.css">
 
+    <!-- Applies different responsive CSS files depending on the screen size -->
     <link rel="stylesheet" href="mobile.css" media="screen and (max-width: 600px)">
     <link rel="stylesheet" href="tablet.css" media="screen and (min-width: 601px) and (max-width: 1024px)">
     <link rel="stylesheet" href="laptop.css" media="screen and (min-width: 1025px)">
@@ -16,8 +26,11 @@
 
 
 <body>
+    <!-- Header contains the portfolio title and navigation menu -->
     <header>
         <h1>My Personal Portfolio</h1>
+
+        <!-- Navigation links allow users to move between the four pages -->
         <nav>
  
             <a href="index.html">Home</a>
@@ -28,6 +41,7 @@
         </nav>
     </header>
 
+    <!-- Main content for this page-->
     <main>
         <h2>My Previous Projects</h2>
 
@@ -38,85 +52,67 @@
         </p>
 
 
-        <article>
+    <!-- The article tag groups the project content together -->
+    <article>
+
+        <!-- This section contains my business-related projects -->
+        <section>
+            <h2>Business Projects</h2>
+
+            <!-- Creates a numbered list for the five projects -->
             <ol>
                 <li>
-                    <h3>Project 1 - Reselling Business</h3>
+                    <h3>My Reselling Business</h3>
+                    <!-- Displays an image of my reselling business with alternative text -->
                     <img src="images/reselling.jpg" alt="My reselling business">
 
-                    <p>
-                        I launched my first reselling business. It is
-                        a simple reselling business where I buy orders
-                        in bulk for cheap and sell them for a higher
-                        value. I have sourced over 15 products and have
-                        successfully gained about $6,000 in sales overall.
-                    </p>
-
+                    <p>I started a no-brand reselling business where I buy products in bulk and resell them to customers. This experience helped me develop skills in sales, communication, and managing a small business.</p>
                 </li>
 
-
                 <li>
-                    <h3>Project 2 - Ezza Label</h3>
-                    <img src="images/ezzalabel.webp" alt="Ezza Label fashion brand">
+                    <h3>Ezza Label</h3>
+                    <!-- Displays an image of my fashion and clothing brand with alternative text -->
+                    <img src ="images/ezzalabel.webp" alt="Ezza Label, my fashion and clothing brand">
 
-                    <p>
-                        Ezza Label is a printed jersey hijab business.
-                        This is a niche business that I launched in
-                        September of 2026. The business has already
-                        generated $1,000 in sales and focuses on
-                        providing a unique product to customers.
-                    </p>
-
+                    <p>Ezza Label is my fashion and clothing brand focused on printed jersey hijabs. I launched the business in September 2026 and have gained experience in branding, marketing, and customer service.</p>
                 </li>
 
-
                 <li>
-                    <h3>Project 3 - NFC Google Review/Menu Business</h3>
-                    <img src="images/nfc.jpg" alt="NFC Google Review and menu business">
+                    <h3>NFC Google Review and Menu Business</h3>
+                    <!-- Displays an image of my NFC business with alternative text -->
+                    <img src="images/nfc.jpg" alt="NFC Google Review and Menu Business">
 
-                    <p>
-                        This business is a NFC-based
-                        solution for Google Reviews and menus for
-                        restaurants and stores. This project aims to
-                        provide a seamless experience for customers to
-                        access reviews and menus using their smartphones.
-                    </p>
-
-                </li>
-
-
-                <li>
-                    <h3>Project 4 - Smart Campus Parking System</h3>
-                    <img src="images/campusparking.jpg" alt="Smart Campus Parking System">
-
-                    <p>
-                        I created a project using OOP Python. This
-                        project simulates how a university manages
-                        parking for students, staff, and visitors.
-                        Users can register, add vehicles, park them,
-                        and the system also handles fees and violations.
-                    </p>
-
-                </li>
-
-
-                <li>
-                    <h3>Project 5 - Corporate Network Design Project</h3>
-                    <img src="images/network.png" alt="Corporate network design project">
-
-                    <p>
-                        This project focuses on designing and implementing
-                        a corporate network infrastructure. This project
-                        involves planning, configuring, and managing
-                        network resources for a medium-sized organization.
-                    </p>
-
+                    <p>This project involves creating NFC products that can help businesses make it easier for customers to access Google reviews and digital menus. It allowed me to explore technology while developing a business idea.</p>
                 </li>
             </ol>
-        </article>
-    </main>
+        </section>
 
+        <!-- This section contains my technology related school projects -->
+        <section>
+            <h2>Technology Projects</h2>
 
+            <ol>
+                <li>
+                    <h3>Smart Campus Parking System</h3>
+                    <!-- Displays an image of the smart campus parking system with alternative text -->
+                    <img src="images/campusparking.jpg" alt="Smart Campus Parking System Project">
+
+                    <p>This project was created using object-oriented programming in Python. It simulated a university parking system where students, staff, and visitors could register vehicles, park vehicles, pay fees, and receive violations.</p>
+                </li>
+
+                <li>
+                    <h3>Corporate Network Design Project</h3>
+                    <!-- Displays an image of the corporate network design project with alternative text -->
+                    <img src="images/network.png" alt="Corporate Network Design Project">
+
+                    <p>This project involved designing a network for a corporate environment. It helped me understand networking concepts and how different devices and systems can be connected together.</p>
+                </li>
+            </ol>
+        </section>
+
+    </article>
+
+    <!-- Footer content with my contact information and copyright-->
     <footer>
         <p>Email: zunaira.faisal@ontariotechu.net</p>
         <p>© 2026 Zunaira Faisal. All Rights Reserved.</p>

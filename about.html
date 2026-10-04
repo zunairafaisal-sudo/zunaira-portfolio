@@ -1,14 +1,23 @@
+<!-- Tells the browser that this document uses HTML5 -->
 <!DOCTYPE html>
 <html>
 
 
 
 <head>
+    <!-- Allows the webpage to correctly display different characters and symbols -->
     <meta charset="UTF-8">
+
+    <!-- Makes the webpage adjust properly to different screen sizes -->
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- Sets the title shown in the browser tab -->
     <title>Zunaira Faisal's Portfolio - About</title>
-    
+
+    <!-- Links the main stylesheet -->
     <link rel="stylesheet" href="style.css">
+
+    <!-- Applies different responsive CSS files depending on the screen size -->
     <link rel="stylesheet" href="mobile.css" media="screen and (max-width: 600px)">
     <link rel="stylesheet" href="tablet.css" media="screen and (min-width: 601px) and (max-width: 1024px)">
     <link rel="stylesheet" href="laptop.css" media="screen and (min-width: 1025px)">
@@ -17,8 +26,11 @@
 
 
 <body>
+    <!-- Header contains the portfolio title and navigation menu -->
     <header>
         <h1>My Personal Portfolio</h1>
+
+        <!-- Navigation links allow users to move between the four pages -->
         <nav>
 
             <a href="index.html">Home</a>
@@ -29,10 +41,14 @@
         </nav>
     </header>
 
-
+    <!-- Main content for this page-->
     <main>
+
+        <!-- Section about my background and interests -->
         <section>
             <h2>Get to Know Me</h2>
+
+            <!-- Displays my image along with a alternative text -->
             <img src="images/myimage.jpeg" alt="A photo of me">
 
             <p>
@@ -50,11 +66,13 @@
             </p>
 
             <p>
-                Along with my studies, I run two businesses. My first
+                Along with my studies, I run three businesses. My first
                 business is a no-brand reselling business, where I buy
                 and resell different products. My second business is
                 Ezza Label, a fashion and clothing brand that I am
-                always building and developing.
+                always building and developing. Finally my 3rd business is 
+                an NFC review and menu card business where I help businesses
+                make their daily customer interaction as convenient as possible.
             </p>
 
             <p>
@@ -67,6 +85,8 @@
 
         </section>
 
+
+        <!-- Section describing some of my personal interests -->
         <section>
 
             <h2>A Little More About Me</h2>
@@ -92,15 +112,20 @@
                 music, and I hope you enjoy listening to it too!
             </p>
 
+
+            <!-- Displays the music video with controls and a poster image -->
             <video controls poster="images/videoposter.png">
 
                 <source src="video/avantladouane.mp4" type="video/mp4">
+
+                <!-- OGG video format to ensure all devices get access -->
+                <source src="video/avantladouane.ogg" type="video/ogg">
 
             </video>
         </section>  
     </main>
 
-
+    <!-- Footer contains contact information and copyright information -->
     <footer>
         <p>Email: zunaira.faisal@ontariotechu.net</p>
         <p>© 2026 Zunaira Faisal. All Rights Reserved.</p>

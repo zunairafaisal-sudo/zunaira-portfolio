@@ -1,3 +1,5 @@
+
+/* Sets the overall background, text colour, font, and spacing */
 body {
     background-color: beige;
     color: saddlebrown;
@@ -5,7 +7,7 @@ body {
     margin: 0;
 }
 
-
+/* Styles the header with a linear gradient and centered text */
 header {
     background: linear-gradient(burlywood, beige);
     padding: 20px;
@@ -13,17 +15,17 @@ header {
 }
 
 
-
+/* Styles the navigation area */
 nav {
     background-color: white;
     padding: 10px;
     text-align: center;
 }
 
+/* Styles the navigation links with borders, spacing, and shadows */
 nav a {
     background-color: beige;
     color: saddlebrown;
-    text-decoration: none;
     padding: 10px;
     margin: 10px;
     border: 2px solid saddlebrown;
@@ -31,7 +33,7 @@ nav a {
 }
 
 
-
+/* Styles the main content area and adds a gradient background */
 main {
     background: linear-gradient(135deg, burlywood, beige);
     width: 90%;
@@ -42,18 +44,18 @@ main {
 
 
 
-
+/* Sets the colour of the main headings */
 h2 {
     color: saddlebrown;
 }
 
+/* Styles the subheadings */
 h3 {
     color: saddlebrown;
 }
 
 
-
-
+/* Sets the size and border around images */
 img {
     width: 200px;
     height: auto;
@@ -64,7 +66,7 @@ img {
 
 
 
-
+/* Sets the size of the video */
 video {
     width: 500px;
     height: auto;
@@ -72,12 +74,15 @@ video {
 
 
 
-
+/* Styles the form text boxes and comment box */
 input, textarea {
     padding: 8px;
     border: 1px solid saddlebrown;
     color: black;
 }
+
+
+/* Styles the Reset button */
 
 #reset {
     background-color: burlywood;
@@ -87,6 +92,8 @@ input, textarea {
     box-shadow: 2px 2px 5px gray;
 }
 
+
+/* Styles the submit button */
 #submit {
     background-color: burlywood;
     color: black;
