@@ -47,9 +47,17 @@ Contact Me:
 
                                                RESPONSIVE DESIGN:
 This website used multiple .css files for different screen sizes.
-  - mobile.css is used for smallest screen sizes
-  - tablet.css is use for tablet sized screens
-  - laptop.css is used for larger screens
+  - mobile.css is used for smallest screen sizes (0-600px)
+        - I used smaller navigation text and spacing so that the navigation buttons can fit on a smaller screen. Images, videos, and form fields also use percentage-based widths (fluids) so they can adjust to the available screen size.
+
+  - tablet.css is use for tablet sized screens (501-1024px)
+        - The navigation, images, video, and form fields are slightly larger than the mobile version because tablets provide more screen space.
+
+  - laptop.css is used for larger screens (1025px and bigger)
+        - The content has more space, so the navigation, images, video, and other elements can use larger sizes.
+
+  - These viewport ranges were chosen to separate small phone screens, medium tablet screens, and larger laptop/desktop screens.
+    
   - style.css is the main css file that controls formating/organziation.
     
 All of the responsive stylesheets are connected to the HTML pages using media queries so that the website can adjust to different screen sizes.
@@ -83,14 +91,7 @@ Comments were also included all throughout the code to explain briefly what diff
 - - Footer that includes contact info as well as a copyright notice
 
                                                   COLOUR SCHEME:
-  The website uses a warm and basic coloured scheme.
-
-  The main colours used in the wbesite are:
-  - Beige
-  - Burlywood
-  - Saddlebrown
-
-Black, gray and white are also incorporated into the website for features like the background, form buttons, borders and shadows.
+ 
 
                                             VALIDATION AND ACCESSIBILITY:
 This website was checked using recommended HTML and CSS validators to ensure that the code is valid with no errors.
