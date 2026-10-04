@@ -35,7 +35,7 @@ nav a {
 
 /* Styles the main content area and adds a gradient background */
 main {
-    background: linear-gradient(135deg, #D6CBC9, #F9ECE5);
+    background: linear-gradient(135deg, #F9ECE5, #D6CBC9, #944D4D);
     width: 90%;
     margin: 30px auto;
     padding: 20px;
