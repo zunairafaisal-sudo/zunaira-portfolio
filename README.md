@@ -13,6 +13,7 @@ About the project:
 Home:
   The home page briefly introduces me and also gives a short overview of what can be found in this portfolio under what section.
 
+About Me:
   The About Me page provides more information about my background, interests, education, and businesses. It also includes a video
   that I selected as one of my favourite music videos.
 
@@ -22,6 +23,15 @@ Projects:
 Contact Me:
   The Contact Me page includes a form where visitors can enter their name, email, phone number, and comments.
 
+                                                TECHNOLOGY USED:
+- HTML5
+- CSS3
+- GitHub Pages
 
-                                                  
-   
+                                               RESPONSIVE DESIGN:
+This website used multiple .css files for different screen sizes.
+  - mobile.css is used for smallest screen sizes
+  - tablet.css is use for tablet sized screens
+  - laptop.css is used for larger screens
+  - style.css is the main css file that controls formating/organziation
+All of the responsive stylesheets are connected to the HTML pages using media queries so that the website can adjust to different screen sizes.
